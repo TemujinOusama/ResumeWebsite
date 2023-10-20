@@ -1,0 +1,144 @@
+body{
+    background-color: rgb(106, 106, 106);
+}
+.container{
+    background-color: white;
+    height: 1500px;
+    width: 1000px;
+    margin: auto;
+    padding: 0;
+    box-shadow: 7px 7px 10px 1px rgb(49, 49, 49);
+    
+}
+.above{
+    background-color: rgb(150, 150, 150);
+    height: 150px;
+    width: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+.heading{
+    text-align: center;
+}
+.heading img{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    position:relative;
+    margin-top: -75px;
+    z-index: 1;
+    box-shadow: 4px 4px 5px 1px rgb(29, 29, 29);
+    transition: transform .5s;
+    
+}
+.zoom:hover{
+    transform: scale(2);
+}
+.heading h1{
+    font-weight: 10;
+    font-family: 'Questrial', sans-serif;
+    font-size: 38px;
+    margin: 0;
+}
+.heading h2{
+    font-weight: 100;
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+.container2{
+    padding: 5%;
+}
+.column{
+    float: left;
+    width: 50%; 
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.bold{
+    font-weight: bold;
+}
+.left{
+    width:35%;
+}
+.right{
+    width:65%;
+}
+.signatureImg{
+    text-align: end;
+}
+.signatureImg img{
+    
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    margin-right: 50px;
+    margin-bottom: -75px;
+
+}
+.insideCol{
+    padding:10%; 
+    border-top: 2px solid rgba(238, 199, 254, 0.301);
+    position: relative;
+}
+
+
+.space{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.left .insideCol{
+    border-right: 2px solid rgba(238, 199, 254, 0.301);
+    
+}
+.column h2{
+    
+    color: rgb(98, 98, 98);
+    font-size: 70;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.column h3{
+    margin: 0;
+    font-size: 17px;
+}
+.column p{
+    font-style:italic;
+    margin: 0;
+}
+.badge{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    
+    
+}
+.sign{
+    text-align: end;
+}
+
+.download-icon{
+    box-sizing: border-box;
+    color: blue;
+    text-decoration: none;
+    
+}
+.download-icon img{
+    height: 20px;
+    width: 20px;
+    position:absolute;
+}
+
+.container:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+
